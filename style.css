@@ -1,0 +1,24 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+} 
+.div_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content{
+    background-color: red;
+}
+a{
+    display:block; /*сделано для того что бы ссылка была не на той же строчке что и контент */
+    color: black;
+    text-decoration: none;
+}
+span{
+    display:inline-block;
+    background-color:rgb(96, 165, 255);
+    padding: 15px;
+    border: solid 2px coral;
+    border-radius: 150px;
+    margin:40px;
+}
